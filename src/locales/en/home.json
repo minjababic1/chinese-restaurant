@@ -1,0 +1,49 @@
+{
+  "topDishes": "Top 3 Dishes",
+  "news": "News",
+  "welcomeMessage": "Welcome to our Chinese restaurant! Enjoy our special promotions this week:",
+  "monday": "Monday: 20% off on all Dim Sum dishes.",
+  "wednesday": "Wednesday: Buy three, get one free on Kung Pao Chicken.",
+  "friday": "Friday: Free dessert with any order over $30.",
+  "weekendSpecial": "Weekend Special: 30% off on Peking Duck and Szechuan Beef.",
+  "dontMissOut": "Don’t miss out on these amazing deals!",
+  "dishOfTheDay": "Dish of the Day",
+  "dishOfTheDayName": "General Tso's Chicken",
+  "reservation": "Reservation",
+  "bookTableOnline": "Book Table Online",
+  "tel": "Tel",
+  "newEmployees": "New Employees",
+  "partners": "Partners",
+  "dishes": {
+    "Kung Pao Chicken": {
+      "title": "Kung Pao Chicken",
+      "description": "A spicy, stir-fried Chinese dish made with chicken, peanuts, vegetables, and chili peppers. Known for its bold flavors and balance of sweet and savory."
+    },
+    "Sweet and Sour Pork": {
+      "title": "Sweet and Sour Pork",
+      "description": "A classic Chinese dish featuring tender pieces of pork coated in a tangy sweet and sour sauce, served with colorful bell peppers and pineapple."
+    },
+    "Mapo Tofu": {
+      "title": "Mapo Tofu",
+      "description": "A traditional Sichuan dish made with tofu set in a spicy chili and bean-based sauce, typically containing minced meat, usually pork or beef."
+    }
+  },
+  "employees": {
+    "Mark Johnson": {
+      "name": "Mark Johnson",
+      "description": "Mark Johnson is passionate about delivering authentic Chinese cuisine with a modern twist. His dedication to culinary arts shines through in every dish he creates."
+    },
+    "Emma Grosh": {
+      "name": "Emma Grosh",
+      "description": "Emma Grosh brings a wealth of experience in Chinese culinary traditions. Her innovative approach to flavors ensures each meal is a delightful experience."
+    },
+    "Laura Stegner": {
+      "name": "Laura Stegner",
+      "description": "Laura Stegner blends traditional Chinese cooking techniques with contemporary tastes, crafting dishes that are both comforting and adventurous."
+    },
+    "Patrick Pool": {
+      "name": "Patrick Pool",
+      "description": "Patrick Pool's expertise in Chinese gastronomy brings a unique flair to every dish he prepares. His commitment to quality and authenticity is unparalleled."
+    }
+  }
+}

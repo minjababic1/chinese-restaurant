@@ -1,0 +1,49 @@
+{
+  "topDishes": "Top 3 Jela",
+  "news": "Vesti",
+  "welcomeMessage": "Dobrodošli u naš kineski restoran! Uživajte u našim specijalnim promocijama ove nedelje:",
+  "monday": "Ponedeljak: 20% popusta na sva Dim Sum jela.",
+  "wednesday": "Sreda: Kupite tri, dobijate jednu besplatnu Kung Pao piletinu.",
+  "friday": "Petak: Besplatan desert uz svaku porudžbinu preko 30$.",
+  "weekendSpecial": "Vikend Specijal: 30% popusta na Pekinšku patku i Sečuansku govedinu.",
+  "dontMissOut": "Ne propustite ove neverovatne ponude!",
+  "dishOfTheDay": "Jelo Dana",
+  "dishOfTheDayName": "Piletina po General Tso-u",
+  "reservation": "Rezervacija",
+  "bookTableOnline": "Rezervišite sto online",
+  "tel": "Tel",
+  "newEmployees": "Novi Zaposleni",
+  "partners": "Partneri",
+  "dishes": {
+    "Kung Pao Chicken": {
+      "title": "Kung Pao Piletina",
+      "description": "Začinjeno, prženo kinesko jelo napravljeno sa piletinom, kikirikijem, povrćem i čili paprikama. Poznato po svojim hrabrim ukusima i ravnoteži slatkog i slanog."
+    },
+    "Sweet and Sour Pork": {
+      "title": "Slatko-kiseli Svinjetina",
+      "description": "Klasično kinesko jelo sa komadima svinjetine u tangi slatko-kiselom sosu, posluženo sa šarenim paprikama i ananasom."
+    },
+    "Mapo Tofu": {
+      "title": "Mapo Tofu",
+      "description": "Tradicionalno Sečuansko jelo napravljeno sa tofuom u začinjenom sosu na bazi čilija i pasulja, obično sadrži mleveno meso, obično svinjetinu ili govedinu."
+    }
+  },
+  "employees": {
+    "Mark Johnson": {
+      "name": "Mark Johnson",
+      "description": "Mark Johnson je strastven u isporuci autentične kineske kuhinje sa modernim zaokretom. Njegova posvećenost kulinarskim umetnostima sija kroz svako jelo koje stvori."
+    },
+    "Emma Grosh": {
+      "name": "Emma Grosh",
+      "description": "Emma Grosh donosi bogato iskustvo u kineskim kulinarskim tradicijama. Njen inovativni pristup ukusima osigurava da je svaki obrok prijatno iskustvo."
+    },
+    "Laura Stegner": {
+      "name": "Laura Stegner",
+      "description": "Laura Stegner kombinuje tradicionalne kineske tehnike kuvanja sa savremenim ukusima, stvarajući jela koja su i utešna i avanturistička."
+    },
+    "Patrick Pool": {
+      "name": "Patrick Pool",
+      "description": "Patrick Pool-ovo znanje o kineskoj gastronomiji donosi jedinstvenost svakom jelu koje priprema. Njegova posvećenost kvalitetu i autentičnosti je bez premca."
+    }
+  }
+}

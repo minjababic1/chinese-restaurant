@@ -1,0 +1,213 @@
+/*menu with jquery.horizontalNav.js*/
+
+nav { 
+	display: block;
+	z-index: 11;
+	text-align: center;
+	margin-top: 42px;
+	margin-bottom: 22px;
+}
+
+.sf-menu { display: inline-block; }
+.sf-menu > li > span {display: block; position: relative;}
+.sf-menu ul {position:absolute; top:-999px; display:none; }/*offset of submenus need to match (see below)*/
+.sf-menu li { padding-left:0px;background: none; position: static;}
+	.sf-menu a {
+		display: block;
+		text-decoration: none;
+		color: #f9580e;
+		line-height: 20px;
+		text-transform: uppercase;
+	}
+		.sf-menu a:hover {text-decoration: none;}
+		.sf-menu li:hover span {color:#f9580e;}
+
+/*================================>> 1 Level <<========================================*/
+
+/*li.sfHover {position: relative;}*/
+.sf-menu > li > a {
+	display:block;
+	font-size: 14px;
+	-moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease;
+	z-index: 100;
+	letter-spacing: 3px;
+}
+.sf-menu > li {
+	display: block;
+	position: relative;
+	float: left;
+	margin: 0px 36px 0;
+}
+
+	.sf-menu > li:hover > a, 
+	.sf-menu > li.current > a, 
+	.sf-menu > li.sfHover > a,
+	.sf-menu > li:hover > span, 
+	.sf-menu > li.current > span, 
+	.sf-menu > li.sfHover > span {
+		color: #454444;
+	}
+
+.sf-menu > li > a.sf-with-ul:after {
+	position: absolute;
+	display: block;
+	content:"\f107";
+	left: 0px;
+	right: 0;
+	text-align: center;
+	bottom: -12px;
+	-moz-transition: top 0.3s ease-out;
+    -o-transition: top 0.3s ease-out;
+    -webkit-transition: top 0.3s ease-out;
+	overflow: hidden;
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 14px;
+	color: #f9580e;
+}
+
+
+/*================================>> 2 Level <<========================================*/
+.sf-menu > li > ul, 
+.sf-menu > li.sfHover > ul {
+	top: 43px;
+	left: 0px;
+	width: 114px;
+	z-index:99;
+	background: #ffffff;
+	text-align: left;
+	padding-top: 14px;
+	padding-bottom: 24px;
+	padding-left: 20px;
+	padding-right: 19px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.sf-menu > li > ul > li {height: auto; border: none; margin: 0px 0px;width: auto; position: relative;}
+
+.sf-menu > li > ul > li > a {
+	display: inline-block;
+	font-size: 11px;
+	padding-right: 6px;
+	letter-spacing: 2px;
+	height: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.sf-menu li li a:hover, 
+.sf-menu li.sfHover li.sfHover > a,
+.sf-menu li.sfHover li.sfHover span { 
+	border-bottom: 1px solid #f9580e;
+}
+
+.sf-menu li li.sfHover { background: inherit;}
+
+.sf-menu > li > ul > li > a.sf-with-ul:after  {
+	position: absolute;
+	display: block;
+	content:"\f107";
+	right: -8px;
+	text-align: center;
+	margin-left: 0px;	
+	top: 2px;
+	-moz-transition: top 0.3s ease-out;
+    -o-transition: top 0.3s ease-out;
+    -webkit-transition: top 0.3s ease-out;
+	overflow: hidden;
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 14px;
+}
+.sf-menu > li > ul > li > a.sf-with-ul:hover:after,
+.sf-menu > li > ul > li.sfHover > a.sf-with-ul:after { color: #fe5d55;}
+
+/*================================>> 3 Level <<========================================*/
+
+.sf-menu li li ul {
+	top: 16px;
+	left: 96px;
+	width: 95px;
+	z-index:999;
+	background: #ffffff;
+	text-align: left;
+	padding-top: 14px;
+	padding-bottom: 24px;
+	padding-left: 19px;
+	padding-right: 0px;
+}
+
+.sf-menu li li li {height: auto; border: none; margin: 0px 0px;width: auto;}
+.sf-menu li li li a {
+	display: inline-block;
+	font-size: 11px;
+	padding-right: 6px;
+	letter-spacing: 2px;
+	height: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.sf-menu li li li a:hover {	color: #fe5d55;}
+.sf-menu > li > li.sfHover > span {}
+
+.sf-menu > li > ul > li > a > span { top: 8px; right: 6px;}
+
+
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+
+
+@media only screen and (max-width: 995px) {
+	.sf-menu > li { margin: 0px 15px 0;}
+	header { background-position: center -333px;}
+}
+@media only screen and (max-width: 795px) {
+
+}
+@media only screen and (max-width: 767px) {
+	nav {margin-bottom: 0px;padding-bottom: 0px;margin-top: 0px; margin-left: 0;}
+	.sf-menu { display:none !important;}
+
+	nav select {
+		height: 35px;
+		border: 1px solid #fff;
+		font-family: Arial, sans-serif;
+		font-size: 14px;
+		line-height: 20px;
+		color: #000;
+		background-color: #fff;
+		width: 100%;
+	    outline: none;
+	    padding: 5px;
+		font-weight: normal;
+		margin-top: 31px;
+		margin-bottom: 20px;
+	}
+	nav select option:first-child {
+		color:#20201f;
+	}
+	nav { float: none;}
+}
+
+@media only screen and (max-width: 479px) {
+}
